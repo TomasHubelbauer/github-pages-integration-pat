@@ -1,7 +1,7 @@
-# GitHub Pages Integration PAT
+# GitHub Pages Integration (Out Of The Box) PAT
 
 GitHub has a feature called GitHub Pages. This feature allows having GitHub host
-a website based on the contents of a repository on a github.io domain or on a
+a website based on the contents of a repository on a `github.io` domain or on a
 custom domain.
 
 GitHub Pages get deployed with every commit to the repository, so they stay up
@@ -83,11 +83,10 @@ tremendously.
 
 ## To-Do
 
-### See if it is possible to call the GitHub Pages API with integration PAT
+### Confirm GitHub Pages just deploy on an integration PAT push and update
 
-In the workflow file, add the PAT the `pages` read/write scope so that it can 
-use the API and see if it works. If so, updated the `github-pages` repository
-of mine to codify this best practice.
+I have seen this happen pretty consistently so I think most of this document is
+not relevant anymore.
 
 ### See if using a custom PAT to push a change to the workflow repository loops
 
